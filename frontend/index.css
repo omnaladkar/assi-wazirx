@@ -1,0 +1,142 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #191d28;
+  }
+
+  .money {
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    color: gray;
+  }
+
+  /* heading  */
+  .index {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .name {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .last {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+  }
+  .bls {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+  }
+  .volume {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .base {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+ 
+
+  .rowinner {
+    margin-top: 20px;
+    font-size: 10px;
+    background-color: #2e3241;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  .rowcell {
+    font-size: 26px;
+    color: white;
+  }
+
+
+  #container {
+    display: flex;
+    width: 95%;
+    height: 100px;
+    margin: auto;
+  }
+  .imga {
+    width: 33%;
+    height: 50%;
+    display: flex;
+    margin: auto;
+  }
+  .imga > img {
+    width: 70%;
+    height: 100%;
+  }
+  #timer {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(81, 205, 187);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+    font-weight: bolder;
+  }
+  #telegram {
+    width: 260px;
+    height: 50px;
+    background-color: rgb(81, 205, 187);
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin-left: 40px;
+  }
+  .currency{
+    background-color: #2e3241;
+    width: 90px;
+    height: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
